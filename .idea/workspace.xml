@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="886edfa0-3f43-43cb-bb28-e99afe448c96" name="更改" comment="初始化工程" />
+    <list default="true" id="886edfa0-3f43-43cb-bb28-e99afe448c96" name="更改" comment="初始化工程2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +83,7 @@
       <workItem from="1757834722493" duration="146000" />
       <workItem from="1757834875991" duration="61000" />
       <workItem from="1757834943199" duration="187000" />
-      <workItem from="1757835146093" duration="500000" />
+      <workItem from="1757835146093" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程">
       <option name="closed" value="true" />
@@ -91,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757835526441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化工程">
+      <option name="closed" value="true" />
+      <created>1757835686973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757835686973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化工程2">
+      <option name="closed" value="true" />
+      <created>1757835957461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757835957461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化工程" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化工程" />
+    <MESSAGE value="初始化工程2" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化工程2" />
   </component>
 </project>
