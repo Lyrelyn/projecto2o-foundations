@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="886edfa0-3f43-43cb-bb28-e99afe448c96" name="更改" comment="初始化工程2">
+    <list default="true" id="886edfa0-3f43-43cb-bb28-e99afe448c96" name="更改" comment="初始化工程3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzo2o/foundations/controller/operation/ServeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jzo2o/foundations/mapper/ServeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jzo2o/foundations/mapper/ServeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ServeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ServeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,13 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
   <component name="Git.Settings">
@@ -44,12 +54,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.FoundationsApplication.executor": "Run",
+    "Spring Boot.FoundationsApplication.executor": "Debug",
     "git-widget-placeholder": "dev__01",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/HomeServerProject/jz020/jzo2o-foundations",
+    "last_opened_file_path": "E:/HomeServerProject/jz020/jzo2o-foundations/src/main/java/com/jzo2o/foundations/service/impl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +72,25 @@
     "project.structure.last.edited": "工件",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "应用程序.FoundationsApplication.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HomeServerProject\jz020\jzo2o-foundations\src\main\java\com\jzo2o\foundations\service\impl" />
+      <recent name="E:\HomeServerProject\jz020\jzo2o-foundations\src\main\java\com\jzo2o\foundations\service" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FoundationsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="jzo2o-foundations" />
@@ -83,7 +111,13 @@
       <workItem from="1757834722493" duration="146000" />
       <workItem from="1757834875991" duration="61000" />
       <workItem from="1757834943199" duration="187000" />
-      <workItem from="1757835146093" duration="1161000" />
+      <workItem from="1757835146093" duration="1366000" />
+      <workItem from="1757836976546" duration="182000" />
+      <workItem from="1757839109466" duration="1776000" />
+      <workItem from="1757853921578" duration="3112000" />
+      <workItem from="1757916251919" duration="4450000" />
+      <workItem from="1757933267502" duration="744000" />
+      <workItem from="1757935417595" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程">
       <option name="closed" value="true" />
@@ -109,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757835957461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="初始化工程3">
+      <option name="closed" value="true" />
+      <created>1757836398535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757836398535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +183,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化工程" />
     <MESSAGE value="初始化工程2" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化工程2" />
+    <MESSAGE value="初始化工程3" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化工程3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jzo2o/foundations/service/impl/ServeServiceImpl.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
