@@ -27,6 +27,7 @@ import com.jzo2o.foundations.service.IServeSyncService;
 import com.jzo2o.mysql.utils.PageHelperUtils;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -257,5 +258,17 @@ public class ServeItemServiceImpl extends ServiceImpl<ServeItemMapper, ServeItem
     @Override
     public List<ServeTypeCategoryResDTO> queryActiveServeItemCategory() {
         return baseMapper.queryActiveServeItemCategory();
+    }
+
+    /**
+     * 根据服务项id查询服务项详情
+     *
+     * @param id 服务项id
+     * @return 服务项详情
+     */
+
+    @Cacheable(value = RedisConstants.CacheName.SERVE_ITEM, key = "#id", cacheManager = RedisConstants.CacheManager.ONE_DAY)
+    public ServeItem queryServeItemDetailByIdCache(Long id) {
+        return baseMapper.selectById(id);
     }
 }
